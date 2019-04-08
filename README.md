@@ -30,8 +30,10 @@ https://blog.csdn.net/yzxnuaa/article/details/79723187
 
 https://blog.csdn.net/liuxiao214/article/details/74502975
 
+https://blog.csdn.net/u011534057/article/details/54845673
 
-
+https://www.leiphone.com/news/201701/yZvIqK8VbxoYejLl.html?viewType=weixin
+https://www.sohu.com/a/161570126_775742
 框架：tensorflow（python）
 
 开源项目：https://github.com/carpedm20/DCGAN-tensorflow.git
