@@ -26,6 +26,13 @@
 
 帖子：
 
+论文解析：
+https://www.cnblogs.com/lyrichu/p/9054704.html
+
+样例解析：
+https://www.cnblogs.com/lyrichu/p/9093411.html
+
+
 https://blog.csdn.net/yzxnuaa/article/details/79723187
 
 https://blog.csdn.net/liuxiao214/article/details/74502975
@@ -39,8 +46,10 @@ https://www.sohu.com/a/161570126_775742
 
 开源项目：https://github.com/carpedm20/DCGAN-tensorflow.git
 
-训练数据集：MNIST、SVHN（暂时，参考训练数据集https://www.jianshu.com/p/183ecfbcae20）
-
+训练数据集：
+MNIST：http://yann.lecun.com/exdb/mnist/
+CELEBA 人脸数据集：http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+LSUN 场景数据集：https://www.yf.io/p/lsun
 
 
 #### 
