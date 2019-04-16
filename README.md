@@ -6,7 +6,7 @@
 
 ## 项目描述及需求
 
-#### **DCGAN生成标识牌图像：**
+#### **DCGAN**
 
 生成对抗网络作为无监督学习的一种方法，网络包括一个生成模型G和一个判别模型D：
 
@@ -18,13 +18,7 @@
 
 ## 项目准备
 
-3k-5k张经过处理后的图片：
-
-
-
-学习dcgan
-
-帖子：
+#### **帖子**
 
 论文解析：
 https://www.cnblogs.com/lyrichu/p/9054704.html
@@ -46,16 +40,18 @@ https://www.leiphone.com/news/201701/yZvIqK8VbxoYejLl.html?viewType=weixin
 https://www.sohu.com/a/161570126_775742
 
 
-框架：
+#### **框架**
 
 tensorflow（python3.6）
 
 tensorflow-gpu（python3.6）
 
 
-开源项目：https://github.com/carpedm20/DCGAN-tensorflow.git
+#### **开源项目**
 
-训练数据集：
+https://github.com/carpedm20/DCGAN-tensorflow.git
+
+#### **训练数据集**
 
 MNIST：http://yann.lecun.com/exdb/mnist/
 
