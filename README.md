@@ -32,6 +32,8 @@ https://www.cnblogs.com/lyrichu/p/9054704.html
 样例解析：
 https://www.cnblogs.com/lyrichu/p/9093411.html
 
+用DCGAN生成女朋友：
+https://zhuanlan.zhihu.com/p/26639135
 
 https://blog.csdn.net/yzxnuaa/article/details/79723187
 
@@ -42,7 +44,14 @@ https://blog.csdn.net/u011534057/article/details/54845673
 https://www.leiphone.com/news/201701/yZvIqK8VbxoYejLl.html?viewType=weixin
 
 https://www.sohu.com/a/161570126_775742
-框架：tensorflow（python）
+
+
+框架：
+
+tensorflow（python3.6）
+
+tensorflow-gpu（python3.6）
+
 
 开源项目：https://github.com/carpedm20/DCGAN-tensorflow.git
 
