@@ -59,6 +59,10 @@ CELEBA 人脸数据集：http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
 LSUN 场景数据集：https://www.yf.io/p/lsun
 
+##### [GPU环境配置.md](ZXY_Example/gpu环境配置.md)
+
+https://blog.csdn.net/qq_30611601/article/details/79067982
+
 
 #### 
 
