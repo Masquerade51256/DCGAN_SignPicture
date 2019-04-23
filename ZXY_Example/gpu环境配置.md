@@ -16,7 +16,7 @@
 
 2. 检查[显卡运算能力及cuda套件支持情况](https://developer.nvidia.com/cuda-gpus)，tensorflow-gpu支持运算能力3.5以上的GPU
 
-   ![gpu_capability](/Users/liuyuehan/Documents/GitHub/DCGAN_SignPicture/ZXY_Example/img/gpu_capability.png)
+   ![gpu_capability](img/gpu_capability.png)
 
 3. 下载CUDA安装器，我选择的是9.0版本
 
@@ -24,7 +24,7 @@
 
    [9.0版本下载地址](https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork)
 
-   ![cuda_dowload](/Users/liuyuehan/Documents/GitHub/DCGAN_SignPicture/ZXY_Example/img/cuda_dowload.png)
+   ![cuda_dowload](img/cuda_dowload.png)
 
 4. 安装CUDA：
 
@@ -34,7 +34,7 @@
 
 5. 下载cuDNN：[下载地址](https://developer.nvidia.com/rdp/cudnn-download)，需要注册账号登录，注意选择与CUDA版本匹配的cuDNN
 
-   ![cuDNN_download](/Users/liuyuehan/Documents/GitHub/DCGAN_SignPicture/ZXY_Example/img/cuDNN_download.png)
+   ![cuDNN_download](img/cuDNN_download.png)
 
 6. cuDNN解压后，将其内容复制到`Program Files\Nvidia GPU Computing Toolkit\CUDA\v9.0`目录下
 
