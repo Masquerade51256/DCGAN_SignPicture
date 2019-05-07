@@ -327,7 +327,7 @@ class DCGAN(object):
             time.time() - start_time, errD_fake+errD_real, errG))
 
         fp = open("loss.txt", "a+")
-        fp.write("d_loss:"+errD_fake+errD_real+", g_loss:"+errG+"\n")
+        fp.write("d_loss:"+str(errD_fake+errD_real)+", g_loss:"+str(errG)+"\n")
         fp.close()
 
         # np.mod:Return element-wise remainder of division.
