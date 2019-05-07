@@ -326,6 +326,9 @@ class DCGAN(object):
           % (epoch, config.epoch, idx, batch_idxs,
             time.time() - start_time, errD_fake+errD_real, errG))
 
+        fp = open("loss.txt", "a+")
+        fp.write("d_loss:"+errD_fake+errD_real+", g_loss:"+errG+"\n")
+        fp.close()
 
         # np.mod:Return element-wise remainder of division.
         # 每100次batch训练后，根据数据集是否是mnist的不同，获取样本、判别器损失值、生成器损失值，
