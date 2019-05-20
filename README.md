@@ -48,10 +48,13 @@ tensorflow-gpu（python3.6）
 
 
 #### **开源项目**
+DCGAN参考源码（使用Theano）：
+https://github.com/Newmu/dcgan_code.git
 
+tensorflow项目：
 https://github.com/carpedm20/DCGAN-tensorflow.git
 
-利用DCGAN进行图片自动补全：
+利用DCGAN进行图片自动补全（tensorflow）：
 https://github.com/saikatbsk/ImageCompletion-DCGAN.git
 
 #### **训练数据集**
