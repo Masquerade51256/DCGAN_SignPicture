@@ -51,6 +51,9 @@ tensorflow-gpu（python3.6）
 
 https://github.com/carpedm20/DCGAN-tensorflow.git
 
+利用DCGAN进行图片自动补全：
+https://github.com/saikatbsk/ImageCompletion-DCGAN.git
+
 #### **训练数据集**
 
 MNIST：http://yann.lecun.com/exdb/mnist/
