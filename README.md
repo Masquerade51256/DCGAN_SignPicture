@@ -21,9 +21,13 @@
 #### **帖子**
 
 论文解析：
+
 https://www.cnblogs.com/lyrichu/p/9054704.html
 
+https://blog.csdn.net/xiening0618/article/details/79417734
+
 样例解析：
+
 https://www.cnblogs.com/lyrichu/p/9093411.html
 
 用DCGAN生成女朋友：
