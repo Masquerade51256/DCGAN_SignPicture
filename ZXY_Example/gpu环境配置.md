@@ -12,13 +12,13 @@
 
 ## 安装CUDA
 
-1. 检查显卡及驱动版本：命令行进入目录`Program Files\Nvidia Corporation\NVSMI`，执行`nvidia-smi`
+1. 检查显卡及驱动版本：命令行进入目录`Program Files\Nvidia Corporation\NVSMI`，执行`nvidia-smi`。或直接进入`设备管理器>显示适配器`查看显卡及驱动。
 
 2. 检查[显卡运算能力及cuda套件支持情况](https://developer.nvidia.com/cuda-gpus)，tensorflow-gpu支持运算能力3.5以上的GPU
 
    ![gpu_capability](img/gpu_capability.png)
 
-3. 下载CUDA安装器，我选择的是9.0版本
+3. 下载CUDA安装器，此处选择的是9.0版本
 
    [官方各版本下载列表](https://developer.nvidia.com/cuda-toolkit-archive)
 
@@ -28,9 +28,9 @@
 
 4. 安装CUDA：
 
-   1. 直接运行installer即可，具体参见其它教程吧，我没截图
-   2. 选择自定义安装，建议取消掉安装VS套件，建议安装上对应版本的显卡驱动
-   3. 全程需要联网，好像还要梯子（我忘了
+   1. 下载完成后直接运行installer即可
+   2. 选择自定义安装，建议取消掉安装VS套件，建议更新对应版本的显卡驱动
+   3. 若下载时选择网络安装版本，则全程需要联网，不需要梯子
 
 5. 下载cuDNN：[下载地址](https://developer.nvidia.com/rdp/cudnn-download)，需要注册账号登录，注意选择与CUDA版本匹配的cuDNN
 
@@ -40,13 +40,13 @@
 
 ## 配置虚拟环境
 
-1. 先用Anaconda创建一个新的虚拟环境，名叫tensorflow
+1. 先用Anaconda创建一个新的虚拟环境（此处命名为tensorflow，并指定python版本为3.6）
 
    ```
    conda create -n tensorflow python=3.6
    ```
 
-2. 进入tensorflow虚拟环境
+2. 进入虚拟环境
 
    ```
    activate tensorflow
@@ -58,7 +58,7 @@
    conda install anaconda
    ```
 
-4. 安装Tensorflow-GPU，我使用的是1.8版本，目前最新版本为1.13
+4. 安装Tensorflow-GPU（此处指定1.8版本）
 
    ```
    conda install tensorflow-gpu=1.8
